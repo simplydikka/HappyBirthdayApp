@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.happybirthday.MainActivity">
+
+    <ImageView
+        android:src="@drawable/ogfile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_marginBottom="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="80sp"
+        android:textAllCaps="true"
+        android:fontFamily="@font/arlrdbd"
+        android:textColor="#E7476C"
+        android:text="Happy"
+        />
+
+    <TextView
+        android:layout_marginBottom="96dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:textAllCaps="true"
+        android:fontFamily="@font/arlrdbd"
+        android:textColor="#E7476C"
+        android:text="half-birthday"
+        />
+
+    <TextView
+        android:layout_marginBottom="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:fontFamily="@font/arlrdbd"
+        android:textColor="#F2EBBF"
+        android:text="You only get half the cake though ♡ "
+        />
+
+    <TextView
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:fontFamily="@font/arlrdbd"
+        android:textColor="#F2EBBF"
+        android:text="xoxo"
+        />
+
+    <TextView
+        android:id="@+id/mom"
+        android:paddingRight="8dp"
+        android:paddingBottom="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:fontFamily="@font/arlrdbd"
+        android:textColor="#F2EBBF"
+        android:text="Mom ♡"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mom"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:fontFamily="@font/arlrdbd"
+        android:paddingRight="8dp"
+        android:text="FROM"
+        android:textAllCaps="true"
+        android:textColor="#F2EBBF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
